@@ -12,7 +12,7 @@ function enableAutocomplete()
         numItems = snapshot.snapshotLength - 1;
 
     for (var i = numItems; i >= 0; i--)
-        snapshot.snapshotItem(i).nodeValue = 'on';
+        snapshot.snapshotItem(i).value = 'on';
 }
 
 // The password manager code checks for "autocomplete=off" in a callback
